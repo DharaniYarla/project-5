@@ -1,0 +1,26 @@
+.emoji {
+  font-size: 80px;
+  text-align: center;
+  animation: rotate 5s linear infinite;
+  margin-top: 40%;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(85deg, #ffd700, #00bfff, #ff69b4);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
